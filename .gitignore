@@ -1,0 +1,28 @@
+# --- Harness local-only files ---
+CLAUDE.local.md
+.claude/settings.local.json
+.claude/harness/logs/
+!.claude/harness/logs/.gitkeep
+.claude-harness-backup/
+
+# --- step outputs (large, regenerated) ---
+phases/*/step*-output.json
+
+# --- Node / Python common ---
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- env / secrets ---
+.env
+.env.*
+*.pem
+*.key

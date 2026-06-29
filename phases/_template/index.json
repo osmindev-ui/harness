@@ -1,0 +1,16 @@
+{
+  "project": "{프로젝트명}",
+  "phase": "_template",
+  "status": "pending",
+  "created_at": null,
+  "steps": [
+    {
+      "step": 0,
+      "name": "example-step",
+      "status": "pending",
+      "summary": "",
+      "risk_level": "low",
+      "verification_command": "echo 'replace with real verification'"
+    }
+  ]
+}
